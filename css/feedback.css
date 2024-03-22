@@ -1,0 +1,35 @@
+.feedback-form {
+    width: 480px;
+}
+
+.feedback-form > label {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    font: inherit;
+    padding: 8px;
+    border-radius: 16px;
+    color: blue;
+    background-color:aquamarine;
+    border: 1px;
+}
+
+.feedback-form textarea {
+    resize: none;
+    background-color:aquamarine;
+}
+
+.feedback-btn {
+    width: 300px;
+    height: 40px;
+    border-radius: 16px;
+    background-color: yellow;
+    border: 1px;
+}
