@@ -9,24 +9,28 @@
     <link rel="stylesheet" href="css/feedback.css" />
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
+    <div class="go-back-div link-main">
+      <p><a href="index.html">Go back</a></p>
+    </div>
 
-    <form class="feedback-form" autocomplete="off">
-      <label>
-        <b>Name</b>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          value=""
-        />
-      </label>
-      <label>
-        <b>Message</b>
-        <textarea name="message" rows="6"></textarea>
-      </label>
-      <button type="submit" class="feedback-btn">Submit</button>
-    </form>
+    <div class="form-div">
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          <b>Name</b>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name..."
+            value=""
+          />
+        </label>
+        <label>
+          <b>Message</b>
+          <textarea name="message" rows="6"></textarea>
+        </label>
+        <button type="submit" class="feedback-btn">Submit</button>
+      </form>
+    </div>
 
     <script type="module" src="js/feedback.js"></script>
   </body>

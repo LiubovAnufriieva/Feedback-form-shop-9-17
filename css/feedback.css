@@ -1,3 +1,11 @@
+.go-back-div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-div {
+    padding: 25px;
+}
 .feedback-form {
     width: 480px;
 }
@@ -8,13 +16,15 @@
     padding: 8px;
     display: flex;
     flex-direction: column;
-    color: blue;
+    font-size: 18px;
+    color:gray;
 }
 
 .feedback-form input,
 .feedback-form textarea {
-    font: inherit;
+    font-size: 12px;
     padding: 8px;
+    padding-left: 20px;
     border-radius: 16px;
     color: blue;
     background-color:aquamarine;
@@ -32,4 +42,6 @@
     border-radius: 16px;
     background-color: yellow;
     border: 1px;
+    margin-left: 6px;
+    font-weight: bold;
 }

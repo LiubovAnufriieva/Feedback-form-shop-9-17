@@ -81,6 +81,7 @@ function handleAdd(event) {
   
     const product = event.target.closest(".js-product");
     const productId = Number(product.dataset.id);
+    console.log(product.dataset.id);
     const currentProduct = instruments.find(({ id }) => id === productId);
     const products = JSON.parse(localStorage.getItem(PRODUCT_LS)) || [];
     const index = products.findIndex(({ id }) => id === productId);

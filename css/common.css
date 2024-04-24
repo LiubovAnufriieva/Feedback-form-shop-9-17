@@ -5,14 +5,28 @@
 }
 
 body {
-    margin: 16px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-}
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: 600;
+    
+    color: grey;
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+  
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+ 
 button,
 label {
     cursor: pointer;
@@ -32,4 +46,19 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.list-main {
+    margin: 25px;
+    padding: 25px;
+    list-style-type: none;
+    
+}
+
+.link-main:hover {
+    color: #6C8CFF; 
+}
+
+.basket-div {
+    padding: 25px;
 }
